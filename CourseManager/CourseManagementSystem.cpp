@@ -103,9 +103,8 @@ void Interface::TeacherUI()
     cout << "/// I want to...                            ///" << endl;
     cout << "///                                         ///" << endl;
     cout << "/// 1. Input a course.                      ///" << endl;
-    cout << "/// 2. Delete a course.                     ///" << endl;
-    cout << "/// 3. Search a course.                     ///" << endl;
-    cout << "/// 4. Show all course.                     ///" << endl;
+    cout << "/// 2. Search a course.                     ///" << endl;
+    cout << "/// 3. Show all course.                     ///" << endl;
     cout << "/// 0. Exit the Program.                    ///" << endl;
     cout << "///////////////////////////////////////////////" << endl;
 };
@@ -637,7 +636,7 @@ int main()
             // case 2:
 
             // // Course search
-            case 3:
+            case 2:
             {
         ////// WARNING goto landing airstrip  //////
         /*//*/ label_TeacherCourseSearch:     //////
@@ -711,7 +710,7 @@ int main()
 
             }
             // show all course
-            case 4:
+            case 3:
             {
         ////// WARNING goto landing airstrip   //////
         /*//*/ label_TeacherShowAllCourse:     //////
